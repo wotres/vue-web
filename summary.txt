@@ -1,0 +1,2 @@
+# 현재 페이지 위치 정보 가져올때
+window.location.pathname
