@@ -7,11 +7,18 @@
 # README.md 파일 추가
 $ echo "# vue-web" >> README.md
 $ git init
+
 # warning: LF will be replaced by CRLF in README.md. 경고 방지
 $ git config core.autocrlf true
 $ git add .
 $ git commit -m 'first commit'
+
+# remote 저장소를 origin이란 이름으로 아래 주소에 연결
 $ git remote add origin https://github.com/wotres/vue-web.git
+
+# remote 확인 
+$ git remote -v
+
 $ git push -u origin master
 </code>
 </pre>
